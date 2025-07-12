@@ -1,3 +1,5 @@
+package multithreadinginjava;
+
 public class MultiThreadingLearningExt extends Thread {
     @Override
     public void run() {
