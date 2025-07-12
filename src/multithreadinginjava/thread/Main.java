@@ -1,4 +1,4 @@
-package multithreadinginjava;
+package src.multithreadinginjava.thread;
 
 public class Main {
     public static void main(String[] args) {

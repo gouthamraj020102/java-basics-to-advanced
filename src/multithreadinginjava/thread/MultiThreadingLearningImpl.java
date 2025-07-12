@@ -1,4 +1,5 @@
-package multithreadinginjava;
+package src.multithreadinginjava.thread;
+
 public class MultiThreadingLearningImpl implements Runnable {
     @Override
     public void run() {
