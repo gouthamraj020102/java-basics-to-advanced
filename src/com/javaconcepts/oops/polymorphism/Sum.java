@@ -8,4 +8,7 @@ public class Sum {
     int doSum(int a, int b, int c) {
         return a + b + c;
     }
+    String doSum(String a, String b) {
+        return a + b;
+    }
 }
