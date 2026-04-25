@@ -59,5 +59,24 @@ public class Main {
         double doubleVar = 20d;
         int doubleSum = (int) (c + doubleVar);
         System.out.println(doubleSum);
+
+
+        Employee obj1 = new Employee();
+        Employee obj2 = new Employee();
+
+        // Class Member or Instance variables
+        System.out.println("Class member variables: " + obj1.memberVariable + " + " + obj2.memberVariable);
+
+        // Static variable or Class variable
+        System.out.println("Static variable: " + Employee.staticMemberVariable);
+
+        // Local variable
+        obj1.getAnotherDummyData();
+
+        // Method with parameters
+        System.out.println("Method with parameters: " + obj1.getAnotherDummyData2(2, 5));
+
+        // Constructor parameters
+        Employee obj3 = new Employee(10);
     }
 }
