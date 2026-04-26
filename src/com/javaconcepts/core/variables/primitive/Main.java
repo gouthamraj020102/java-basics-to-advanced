@@ -1,4 +1,4 @@
-package com.javaconcepts.core.variables;
+package com.javaconcepts.core.variables.primitive;
 
 public class Main {
     public static void main(String[] args) {
@@ -78,5 +78,14 @@ public class Main {
 
         // Constructor parameters
         Employee obj3 = new Employee(10);
+
+        // IEEE 754 standard for floating-point arithmetic
+        float floatVar1 = 4.125f;
+        double doubleVar1 = floatVar1;
+        System.out.println(doubleVar1);
+
+        float floatVar2 = .7f;
+        double doubleVar2 = floatVar2;
+        System.out.println(doubleVar2);
     }
 }

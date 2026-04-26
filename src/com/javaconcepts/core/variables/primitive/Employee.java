@@ -1,4 +1,4 @@
-package com.javaconcepts.core.variables;
+package com.javaconcepts.core.variables.primitive;
 
 public class Employee {
     byte var; //class member variable
