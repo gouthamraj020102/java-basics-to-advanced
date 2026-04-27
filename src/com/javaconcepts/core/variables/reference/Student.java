@@ -21,6 +21,31 @@ public class Student {
 
         s3 = "SJ";
         System.out.println(s3); // prints the new "SJ" String literal, not the old "hello" String object
+
+        // Interface Reference Variable Example
+        Person softwareEngineer = new Engineer();
+        Person teacher = new Teacher();
+        Teacher teacher1 = new Teacher();
+        Engineer softwareEngineer1 = new Engineer();
+
+        System.out.println(softwareEngineer.profession()); // returns "Software Engineer"
+        System.out.println(teacher.profession()); // returns "Teacher"
+        System.out.println(teacher1.profession()); // returns "Teacher"
+        System.out.println(softwareEngineer1.profession()); // returns "Software Engineer"
+
+        // Array Reference Variable Example
+        int arr[] = new int[5];
+        arr[0] = 15;
+        System.out.println(arr[0]); // prints 15
+
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println(numbers[0]); // prints 1
+        numbers[0] = 10;
+        System.out.println(numbers[0]); // prints 10
+
+        // 2D Array Reference Variable Example
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
+        System.out.println(matrix[1][0]); // prints 4
     }
 
     public static void modify(Employee empObject) {
