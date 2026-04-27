@@ -24,5 +24,7 @@ public class Main {
         // Create an instance of the Order class to call public method which internally calls default and protected methods
         Order order = new Order();
         order.getOrder();
+
+        order.getReturnTypes();
     }
 }

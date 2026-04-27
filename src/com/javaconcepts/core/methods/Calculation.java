@@ -3,6 +3,7 @@ package com.javaconcepts.core.methods;
 public class Calculation {
 
     // Method to sum two integers and return the result
+    // Parameters are the list of variables used in this method: int a, int b
     public int sum(int a, int b) {
         int total = a + b;
         System.out.println("Sum of " + a + " and " + b + " is: " + total);
@@ -10,6 +11,7 @@ public class Calculation {
     }
 
     // Method to calculate the price of a pen by summing the price of the cap and the pen body
+    // Parameter list can be blank too
     public int getPriceOfPen() {
         int capPrice = 2;
         int penBodyPrice = 5;
