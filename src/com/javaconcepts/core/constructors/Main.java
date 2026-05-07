@@ -9,7 +9,6 @@ public class Main {
         Calculation obj3 = new Calculation("Gowtham Raju", 12345);
         System.out.println(obj3.name + ", " + obj3.id); // Output: Gowtham Raju, 12345
 
-        Manager manager = new Manager();
-        // Person person = new Person();
+        Manager manager = new Manager(1001, 24);
     }
 }

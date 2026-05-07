@@ -1,8 +1,10 @@
 package com.javaconcepts.core.constructors;
 
 public class Manager extends Person {
-    Manager() {
-        super(); // Calls the constructor of the superclass (Person)
-        System.out.println("Manager constructor called");
+    int age;
+    Manager(int empId, int age) {
+        super(empId); // Calls the constructor of the superclass (Person)
+        this.age = age;
+        System.out.println("Manager constructor called working with empId: " + empId + " and age: " + age);
     }
 }
