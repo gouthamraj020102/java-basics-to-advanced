@@ -1,4 +1,4 @@
-package com.javaconcepts.fundamentals;
+package com.javaconcepts.oops.fundamentals;
 
 public class Main {
     public static void main(String[] args) {

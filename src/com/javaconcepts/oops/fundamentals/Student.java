@@ -1,4 +1,4 @@
-package com.javaconcepts.fundamentals;
+package com.javaconcepts.oops.fundamentals;
 
 public class Student {
     // 1. Data Variables
