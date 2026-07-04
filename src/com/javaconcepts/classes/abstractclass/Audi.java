@@ -1,7 +1,7 @@
 package com.javaconcepts.classes.abstractclass;
 
 public class Audi extends LuxuryCar {
-    Audi(int mileage) {
+    public Audi(int mileage) {
         super(mileage);
     }
 

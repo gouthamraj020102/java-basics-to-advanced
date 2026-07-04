@@ -3,7 +3,7 @@ package com.javaconcepts.classes.concreteclass;
 public class Person {
     int empId;
 
-    Person(int empId) {
+    public Person(int empId) {
         this.empId = empId;
     }
 
