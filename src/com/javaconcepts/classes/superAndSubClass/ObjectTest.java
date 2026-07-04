@@ -1,4 +1,4 @@
-package com.javaconcepts.classes.superAndSubClass;
+package com.javaconcepts.classes.superandsubclass;
 
 import com.javaconcepts.classes.abstractclass.Audi;
 import com.javaconcepts.classes.concreteclass.Person;
