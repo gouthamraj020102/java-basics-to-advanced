@@ -6,121 +6,169 @@ A comprehensive Java learning repository covering core concepts from basics to a
 
 ### 1. Object-Oriented Programming (OOPS)
 
-The OOPS section covers fundamental object-oriented programming principles:
+This section covers the core concepts of object-oriented programming:
 
 - **Fundamentals** (`oops/fundamentals/`)
-  - Basic OOP concepts and Student class examples
+  - Basic OOP principles and simple class examples
 
 - **Abstraction** (`oops/abstraction/`)
   - Abstract classes and interfaces
   - Implementing abstract methods
-  - Examples: Car interface with Audi and BMW implementations
-  
+
 - **Encapsulation** (`oops/encapsulation/`)
   - Data hiding and access modifiers
   - Getter and setter methods
-  - Examples: BankAccount, Dog classes demonstrating private fields
-  
+
 - **Inheritance** (`oops/inheritance/`)
-  - Parent-child class relationships
+  - Parent-child relationships
   - Method overriding
-  - Examples: Vehicle as parent class with Car as child class
-  
+
 - **Polymorphism** (`oops/polymorphism/`)
   - Method overloading and overriding
-  - Runtime and compile-time polymorphism
-  - Examples: Sum class with multiple add methods, A and B classes
+  - Compile-time and runtime polymorphism
 
 ---
 
 ### 2. Java Virtual Machine (JVM)
 
-Understanding how Java runs on the JVM:
+This section explains how Java programs run on the JVM:
 
-- **Employee.java** - Demonstrates JVM memory allocation and object creation
-- **Student.java** - Shows how the JVM handles class instances and method execution
-- Focuses on bytecode compilation and JVM execution model
+- **JVM concepts** (`jvm/`)
+  - Class loading and execution
+  - Object creation and method execution
+  - Bytecode-based runtime behavior
 
 ---
 
 ### 3. Variables
 
-Comprehensive coverage of Java variable types:
+This section focuses on Java variable types and usage:
 
-- **Primitive Types** (`variables/primitive/`)
-  - int, float, double, boolean, char, byte, short, long
-  - Examples: Employee class using primitive data types
-  
-- **Reference Types** (`variables/reference/`)
+- **Primitive types** (`variables/primitive/`)
+  - `int`, `float`, `double`, `boolean`, `char`, `byte`, `short`, `long`
+
+- **Reference types** (`variables/reference/`)
   - Objects and references
-  - Examples: Employee, Engineer, Person, Student, Teacher classes
-  - Understanding object references vs primitive values
-  
-- **Wrapper Classes** (`variables/wrapper/`)
-  - Converting between primitive and object types
-  - AutoBoxing and unboxing
-  - Examples: WrapperClass demonstrating Integer, Double, Boolean wrappers
+  - Working with class instances
+
+- **Wrapper classes** (`variables/wrapper/`)
+  - Boxing and unboxing
+  - Conversion between primitives and objects
 
 ---
 
 ### 4. Methods
 
-Working with methods in Java:
+This section covers method declarations, calls, and usage:
 
-- **Basic Methods** (`methods/`)
-  - Method definition and calling
-  - Parameters and return types
-  - Examples: Calculation, Doctor, Nurse, Person, Surgeon classes
-  
-- **HumanResource Department** (`methods/HumanResource/`)
-  - JobPortal.java - Demonstrates method usage in business logic
-  
-- **SalesDepartment** (`methods/SalesDepartment/`)
-  - Invoice.java - Working with methods for invoice operations
-  - Order.java - Order processing using methods
+- **Basic methods** (`methods/`)
+  - Return types and parameters
+  - Method overloading and reuse
+
+- **Department-based examples** (`methods/HumanResource/`, `methods/SalesDepartment/`)
+  - Practical usage of methods in business logic
 
 ---
 
 ### 5. Constructors
 
-Object initialization and constructor patterns:
+This section demonstrates how objects are initialized:
 
-- **Default Constructors** - Constructor without parameters
-- **Parameterized Constructors** - Constructor with parameters
-- **Constructor Overloading** - Multiple constructors in same class
-- Examples:
-  - Calculation class - Mathematical operations
-  - Person, Manager classes - Demonstrating person/role concepts
-  - Main class - Showcasing constructor usage
+- **Default constructors**
+- **Parameterized constructors**
+- **Constructor overloading**
+- Examples in the `constructors/` package
 
 ---
 
 ### 6. Memory Management
 
-Understanding Java memory management:
+This section explains how Java manages memory:
 
-- **Memory Allocation** (`memorymanagement/`)
-  - Stack memory for primitive types and references
-  - Heap memory for objects
-  - Garbage collection concepts
-  
-- **Topics Covered:**
-  - Memory regions (Stack, Heap, Metaspace)
-  - Object lifecycle and garbage collection
-  - Memory leaks and best practices
-  - Weak and soft references
+- **Stack vs Heap**
+- **Object lifecycle**
+- **Garbage collection basics**
+- Examples in the `memorymanagement/` package
+
+---
+
+### 7. Classes
+
+This section introduces additional class-based Java concepts:
+
+- **Abstract classes** (`classes/abstractclass/`)
+- **Concrete classes** (`classes/concreteclass/`)
+- Demonstrates class design and inheritance-based behavior
+
+#### Nested Classes
+
+This section covers nested-class types and examples in the requested order.
+
+1. Static nested classes (`classes/nestedclass/staticnested/`)
+   - Belong to the outer class, not to an outer instance.
+   - Can be instantiated with `OuterClass.StaticNestedClass nested = new OuterClass.StaticNestedClass();`.
+   - Can access only static members of the outer class.
+   - Example files: `OuterClass.java`, `Main.java` in `classes/nestedclass/staticnested/`.
+
+2. Non-static inner classes
+   - Member inner classes (`classes/nestedclass/nonstaticnested/`)
+     - Declared as members of the outer class; require an outer instance to create.
+     - Example usage: `OuterClass outer = new OuterClass(); OuterClass.InnerClass inner = outer.new InnerClass();`.
+   - Local inner classes
+     - Declared inside methods; scope is limited to the method.
+   - Anonymous inner classes (`classes/nestedclass/nonstaticnested/anonymousinnerclass/`)
+     - Inline class implementations used for single-use behavior (e.g., listeners or runnable instances).
+
+3. Inheritance (inheritanceNeeded)
+   - Example 1: `classes/nestedclass/inheritanceinnested/exampleone/`
+     - `InnerClass2` extends `InnerClass1` (subclass inherits fields and behavior from superclass).
+   - Example 2: `classes/nestedclass/inheritanceinnested/exampletwo/`
+     - Extending a `static` nested class from a top-level class (remember to call `super()` appropriately).
+   - Example 3: `classes/nestedclass/inheritanceinnested/examplethree/`
+     - Extending a non-static inner class from a top-level class, using `new OuterClass().super();` in the subclass constructor to bind an enclosing instance.
 
 ---
 
 ## Project Structure
 
+```text
+src/com/javaconcepts/
+├── classes/
+│      ├── abstractclass/
+│      ├── concreteclass/
+│      ├── superandsubclass/
+│      └── nestedclass/
+│              ├── staticnested/
+│              ├── nonstaticnested/
+│              │      ├── memberinnerclass/
+│              │      ├── localinnerclass/
+│              │      └── anonymousinnerclass/
+│              └── inheritanceinnested/
+│                      ├── exampleone/
+│                      ├── exampletwo/
+│                      └── examplethree/
+├── constructors/
+├── jvm/
+├── memorymanagement/
+├── methods/
+├── oops/
+│      ├── fundamentals/
+│      ├── encapsulation/
+│      ├── inheritance/
+│      ├── polymorphism/
+│      └── abstraction/
+└── variables/
+       ├── primitive/
+       ├── reference/
+       └── wrapper/
+
 ```
-src/
-├── com/javaconcepts/
-│   ├── constructors/      # Constructor examples
-│   ├── jvm/               # JVM-related concepts
-│   ├── memorymanagement/  # Memory management topics
-│   ├── methods/           # Method examples
-│   ├── oops/              # Object-oriented programming
-│   └── variables/         # Variable types
+
+## Getting Started
+
+Compile and run Java files using the Java compiler from the project root:
+
+```bash
+javac <FileName>.java
+java <ClassName>
 ```
