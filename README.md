@@ -100,22 +100,68 @@ This section introduces additional class-based Java concepts:
 - **Concrete classes** (`classes/concreteclass/`)
 - Demonstrates class design and inheritance-based behavior
 
+#### Nested Classes
+
+This section covers nested-class types and examples in the requested order.
+
+1. Static nested classes (`classes/nestedclass/staticnested/`)
+   - Belong to the outer class, not to an outer instance.
+   - Can be instantiated with `OuterClass.StaticNestedClass nested = new OuterClass.StaticNestedClass();`.
+   - Can access only static members of the outer class.
+   - Example files: `OuterClass.java`, `Main.java` in `classes/nestedclass/staticnested/`.
+
+2. Non-static inner classes
+   - Member inner classes (`classes/nestedclass/nonstaticnested/`)
+     - Declared as members of the outer class; require an outer instance to create.
+     - Example usage: `OuterClass outer = new OuterClass(); OuterClass.InnerClass inner = outer.new InnerClass();`.
+   - Local inner classes
+     - Declared inside methods; scope is limited to the method.
+   - Anonymous inner classes (`classes/nestedclass/nonstaticnested/anonymousinnerclass/`)
+     - Inline class implementations used for single-use behavior (e.g., listeners or runnable instances).
+
+3. Inheritance (inheritanceNeeded)
+   - Example 1: `classes/nestedclass/inheritanceinnested/exampleone/`
+     - `InnerClass2` extends `InnerClass1` (subclass inherits fields and behavior from superclass).
+   - Example 2: `classes/nestedclass/inheritanceinnested/exampletwo/`
+     - Extending a `static` nested class from a top-level class (remember to call `super()` appropriately).
+   - Example 3: `classes/nestedclass/inheritanceinnested/examplethree/`
+     - Extending a non-static inner class from a top-level class, using `new OuterClass().super();` in the subclass constructor to bind an enclosing instance.
+
 ---
 
 ## Project Structure
 
 ```text
-src/
-├── com/javaconcepts/
-│   ├── classes/
-│   │   ├── abstractclass/
-│   │   └── concreteclass/
-│   ├── constructors/
-│   ├── jvm/
-│   ├── memorymanagement/
-│   ├── methods/
-│   ├── oops/
-│   └── variables/
+src/com/javaconcepts/
+├── classes/
+│      ├── abstractclass/
+│      ├── concreteclass/
+│      ├── superandsubclass/
+│      └── nestedclass/
+│              ├── staticnested/
+│              ├── nonstaticnested/
+│              │      ├── memberinnerclass/
+│              │      ├── localinnerclass/
+│              │      └── anonymousinnerclass/
+│              └── inheritanceinnested/
+│                      ├── exampleone/
+│                      ├── exampletwo/
+│                      └── examplethree/
+├── constructors/
+├── jvm/
+├── memorymanagement/
+├── methods/
+├── oops/
+│      ├── fundamentals/
+│      ├── encapsulation/
+│      ├── inheritance/
+│      ├── polymorphism/
+│      └── abstraction/
+└── variables/
+       ├── primitive/
+       ├── reference/
+       └── wrapper/
+
 ```
 
 ## Getting Started
