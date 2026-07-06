@@ -168,9 +168,10 @@ src/com/javaconcepts/
 │      │      │       ├── genericsubclass/
 │      │      │       └── nongenericsubclass/
 │      │      ├── rawtype/
-│      │      └── boundedgenerics/
-│      │              ├── upperbound/
-│      │              └── multibound/
+│      │      ├── boundedgenerics/
+│      │      │       ├── upperbound/
+│      │      │       └── multibound/
+│      │      └── wildcards/
 │      ├── pojoclass/
 │      ├── enumclass/
 │      ├── finalclass/
