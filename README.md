@@ -147,12 +147,19 @@ src/com/javaconcepts/
 │      │              ├── exampleone/
 │      │              ├── exampletwo/
 │      │              └── examplethree/
-│      └── genericclass/
-│             ├── fundamentals/
-│             ├── genericmethods/
-│             └── inheritance/
-│                     ├── genericsubclass/
-│                     └── nongenericsubclass/
+│      ├── genericclass/
+│      │      ├── fundamentals/
+│      │      ├── genericmethods/
+│      │      ├── inheritance/
+│      │      │       ├── genericsubclass/
+│      │      │       └── nongenericsubclass/
+│      │      └── rawtype/
+│      ├── pojoclass/
+│      ├── enumclass/
+│      ├── finalclass/
+│      ├── singletonclass/
+│      ├── immutableclass/
+│      └── wrapperclass/
 ├── constructors/
 ├── jvm/
 ├── memorymanagement/
