@@ -137,16 +137,20 @@ src/com/javaconcepts/
 │      ├── abstractclass/
 │      ├── concreteclass/
 │      ├── superandsubclass/
-│      └── nestedclass/
-│              ├── staticnested/
-│              ├── nonstaticnested/
-│              │      ├── memberinnerclass/
-│              │      ├── localinnerclass/
-│              │      └── anonymousinnerclass/
-│              └── inheritanceinnested/
-│                      ├── exampleone/
-│                      ├── exampletwo/
-│                      └── examplethree/
+│      ├── nestedclass/
+│      │      ├── staticnested/
+│      │      ├── nonstaticnested/
+│      │      │      ├── memberinnerclass/
+│      │      │      ├── localinnerclass/
+│      │      │      └── anonymousinnerclass/
+│      │      └── inheritanceinnested/
+│      │              ├── exampleone/
+│      │              ├── exampletwo/
+│      │              └── examplethree/
+│      └── genericclass/
+│             ├── fundamentals/
+│             ├── genericmethods/
+│             └── inheritance/
 ├── constructors/
 ├── jvm/
 ├── memorymanagement/

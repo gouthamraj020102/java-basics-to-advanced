@@ -1,4 +1,4 @@
-package com.javaconcepts.classes.genericclass.fundamentals;
+package com.javaconcepts.classes.genericclass;
 
 public class Print<T> {
     private T value;
