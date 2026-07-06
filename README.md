@@ -133,35 +133,52 @@ This section covers nested-class types and examples in the requested order.
 
 ```text
 src/com/javaconcepts/
-├── classes/
-│      ├── abstractclass/
-│      ├── concreteclass/
-│      ├── superandsubclass/
-│      └── nestedclass/
-│              ├── staticnested/
-│              ├── nonstaticnested/
-│              │      ├── memberinnerclass/
-│              │      ├── localinnerclass/
-│              │      └── anonymousinnerclass/
-│              └── inheritanceinnested/
-│                      ├── exampleone/
-│                      ├── exampletwo/
-│                      └── examplethree/
-├── constructors/
-├── jvm/
-├── memorymanagement/
-├── methods/
 ├── oops/
 │      ├── fundamentals/
 │      ├── encapsulation/
 │      ├── inheritance/
 │      ├── polymorphism/
 │      └── abstraction/
-└── variables/
-       ├── primitive/
-       ├── reference/
-       └── wrapper/
-
+├── jvm/
+├── variables/
+│      ├── primitive/
+│      ├── reference/
+│      └── wrapper/
+├── methods/
+├── constructors/
+├── memorymanagement/
+├── classes/
+│      ├── abstractclass/
+│      ├── concreteclass/
+│      ├── superandsubclass/
+│      ├── nestedclass/
+│      │      ├── staticnested/
+│      │      ├── nonstaticnested/
+│      │      │      ├── memberinnerclass/
+│      │      │      ├── localinnerclass/
+│      │      │      └── anonymousinnerclass/
+│      │      └── inheritanceinnested/
+│      │              ├── exampleone/
+│      │              ├── exampletwo/
+│      │              └── examplethree/
+│      ├── genericclass/
+│      │      ├── fundamentals/
+│      │      ├── genericmethods/
+│      │      ├── inheritance/
+│      │      │       ├── genericsubclass/
+│      │      │       └── nongenericsubclass/
+│      │      ├── rawtype/
+│      │      ├── boundedgenerics/
+│      │      │       ├── upperbound/
+│      │      │       └── multibound/
+│      │      └── wildcards/
+│      ├── pojoclass/
+│      ├── enumclass/
+│      ├── finalclass/
+│      ├── singletonclass/
+│      ├── immutableclass/
+│      └── wrapperclass/
+└── interface
 ```
 
 ## Getting Started
