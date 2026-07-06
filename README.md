@@ -133,6 +133,20 @@ This section covers nested-class types and examples in the requested order.
 
 ```text
 src/com/javaconcepts/
+├── oops/
+│      ├── fundamentals/
+│      ├── encapsulation/
+│      ├── inheritance/
+│      ├── polymorphism/
+│      └── abstraction/
+├── jvm/
+├── variables/
+│      ├── primitive/
+│      ├── reference/
+│      └── wrapper/
+├── methods/
+├── constructors/
+├── memorymanagement/
 ├── classes/
 │      ├── abstractclass/
 │      ├── concreteclass/
@@ -153,28 +167,17 @@ src/com/javaconcepts/
 │      │      ├── inheritance/
 │      │      │       ├── genericsubclass/
 │      │      │       └── nongenericsubclass/
-│      │      └── rawtype/
+│      │      ├── rawtype/
+│      │      └── boundedgenerics/
+│      │              ├── upperbound/
+│      │              └── multibound/
 │      ├── pojoclass/
 │      ├── enumclass/
 │      ├── finalclass/
 │      ├── singletonclass/
 │      ├── immutableclass/
 │      └── wrapperclass/
-├── constructors/
-├── jvm/
-├── memorymanagement/
-├── methods/
-├── oops/
-│      ├── fundamentals/
-│      ├── encapsulation/
-│      ├── inheritance/
-│      ├── polymorphism/
-│      └── abstraction/
-└── variables/
-       ├── primitive/
-       ├── reference/
-       └── wrapper/
-
+└── interface
 ```
 
 ## Getting Started
