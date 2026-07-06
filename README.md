@@ -151,6 +151,8 @@ src/com/javaconcepts/
 │             ├── fundamentals/
 │             ├── genericmethods/
 │             └── inheritance/
+│                     ├── genericsubclass/
+│                     └── nongenericsubclass/
 ├── constructors/
 ├── jvm/
 ├── memorymanagement/
