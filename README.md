@@ -182,6 +182,12 @@ src/com/javaconcepts/
 │      │      └── benefits/
 │      ├── finalclass/
 │      ├── singletonclass/
+│      │      ├── eager/
+│      │      ├── lazy/
+│      │      ├── synchronization/
+│      │      ├── doublechecklocking/
+│      │      ├── billpughsolution/
+│      │      └── enumsingleton/
 │      ├── immutableclass/
 │      └── wrapperclass/
 └── interface
