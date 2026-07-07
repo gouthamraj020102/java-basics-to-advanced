@@ -1,4 +1,4 @@
-package com.javaconcepts.classes.enumclass;
+package com.javaconcepts.classes.enumclass.fundamentals;
 
 public enum EnumSample {
     MONDAY,

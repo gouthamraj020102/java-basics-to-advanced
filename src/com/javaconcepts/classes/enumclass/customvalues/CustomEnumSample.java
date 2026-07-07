@@ -1,4 +1,4 @@
-package com.javaconcepts.classes.enumclass;
+package com.javaconcepts.classes.enumclass.customvalues;
 
 public enum CustomEnumSample {
     MONDAY(101, "1st day of the week"),
