@@ -98,9 +98,17 @@ This section introduces additional class-based Java concepts:
 
 - **Abstract classes** (`classes/abstractclass/`)
 - **Concrete classes** (`classes/concreteclass/`)
-- Demonstrates class design and inheritance-based behavior
+
+#### Super and Subclass
+
+This section covers inheritance relationships:
+- Defining superclasses and subclasses
+- Method overriding and superclass method calls
+- Example package: `classes/superandsubclass/`
 
 #### Nested Classes
+
+- Demonstrates class design and inheritance-based behavior
 
 This section covers nested-class types and examples in the requested order.
 
@@ -108,24 +116,95 @@ This section covers nested-class types and examples in the requested order.
    - Belong to the outer class, not to an outer instance.
    - Can be instantiated with `OuterClass.StaticNestedClass nested = new OuterClass.StaticNestedClass();`.
    - Can access only static members of the outer class.
-   - Example files: `OuterClass.java`, `Main.java` in `classes/nestedclass/staticnested/`.
 
 2. Non-static inner classes
    - Member inner classes (`classes/nestedclass/nonstaticnested/`)
-     - Declared as members of the outer class; require an outer instance to create.
+     - Declared as members of the outer class and require an outer instance.
      - Example usage: `OuterClass outer = new OuterClass(); OuterClass.InnerClass inner = outer.new InnerClass();`.
    - Local inner classes
-     - Declared inside methods; scope is limited to the method.
+     - Declared inside methods and used only within that method.
    - Anonymous inner classes (`classes/nestedclass/nonstaticnested/anonymousinnerclass/`)
-     - Inline class implementations used for single-use behavior (e.g., listeners or runnable instances).
+     - Used for one-off implementations of interfaces or abstract classes.
 
-3. Inheritance (inheritanceNeeded)
-   - Example 1: `classes/nestedclass/inheritanceinnested/exampleone/`
-     - `InnerClass2` extends `InnerClass1` (subclass inherits fields and behavior from superclass).
-   - Example 2: `classes/nestedclass/inheritanceinnested/exampletwo/`
-     - Extending a `static` nested class from a top-level class (remember to call `super()` appropriately).
-   - Example 3: `classes/nestedclass/inheritanceinnested/examplethree/`
-     - Extending a non-static inner class from a top-level class, using `new OuterClass().super();` in the subclass constructor to bind an enclosing instance.
+3. Nested-class inheritance (`classes/nestedclass/inheritanceinnested/`)
+   - Example one: `exampleone/` shows one inner class extending another.
+   - Example two: `exampletwo/` shows extending a static nested class.
+   - Example three: `examplethree/` shows extending a non-static inner class and binding the outer instance.
+
+#### Generic Classes
+
+This section covers Java generics and type safety:
+- Generic class definitions and type parameters
+- Generic methods and reusable code patterns
+- Generic inheritance and subclassing rules
+- Raw type usage and why it should be avoided
+- Bounded generics with upper and multiple bounds
+- Wildcards for flexible type parameters
+- Example package: `classes/genericclass/`
+
+#### POJO Classes
+
+This section describes Plain Old Java Objects:
+- Simple classes with fields, constructors, getters, and setters
+- Used to model data without business behavior
+- Example package: `classes/pojoclass/`
+
+#### Enum Classes
+
+This section covers Java `enum` usage and benefits:
+- Basic enum declaration and iteration
+- Custom values and methods inside enums
+- Overriding methods in enums
+- Using abstract methods with enum constants
+- Implementing interfaces from enum constants
+- Practical benefits of enums for fixed sets of values
+- Example package: `classes/enumclass/`
+
+#### Final Classes
+
+This section explains the `final` keyword in Java:
+- Final class behavior and why it cannot be subclassed
+- Final variables and constants
+- Final methods and preventing overriding
+- Example package: `classes/finalclass/`
+
+#### Singleton Classes
+
+This section covers singleton design patterns and thread safety:
+- Eager initialization singleton
+- Lazy initialization singleton
+- Thread-safe singleton with synchronization
+- Double-checked locking singleton
+- Bill Pugh singleton using a static holder class
+- Enum-based singleton for serialization safety
+- Example package: `classes/singletonclass/`
+
+#### Immutable Classes
+
+This section explains how to create immutable objects:
+- Using `final` fields and no setters
+- Preventing external modification of internal collections
+- Returning defensive copies from getters
+- Example package: `classes/immutableclass/`
+
+#### Wrapper Classes
+
+This section explains how wrapper classes work:
+- Autoboxing: primitive to wrapper conversion
+- Unboxing: wrapper to primitive conversion
+- Using wrapper types like `Integer`, `Character`, `Boolean`
+- Demonstrates `static final` constant usage in `Employee`
+- Example package: `variables/wrapper/`
+
+---
+
+### 8. Interfaces
+
+This section covers Java interfaces and contracts:
+- Interface declaration and implementation
+- Multiple interface inheritance
+- Default and static methods in interfaces
+- Example package: `interface/`
 
 ---
 
@@ -182,8 +261,13 @@ src/com/javaconcepts/
 │      │      └── benefits/
 │      ├── finalclass/
 │      ├── singletonclass/
-│      ├── immutableclass/
-│      └── wrapperclass/
+│      │      ├── eager/
+│      │      ├── lazy/
+│      │      ├── synchronization/
+│      │      ├── doublechecklocking/
+│      │      ├── billpughsolution/
+│      │      └── enumsingleton/
+│      └── immutableclass/
 └── interface
 ```
 
