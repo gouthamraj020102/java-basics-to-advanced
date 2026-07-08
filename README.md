@@ -268,7 +268,27 @@ src/com/javaconcepts/
 │      │      ├── billpughsolution/
 │      │      └── enumsingleton/
 │      └── immutableclass/
-└── interface
+├──  interfaces
+│      ├── fundamentals/
+│      ├── benefits/
+│      │      ├── abstraction/
+│      │      ├── polymorphism/
+│      │      └── multipleinheritance/
+│      ├── methods/
+│      ├── fields/
+│      ├── implementation/
+│      └── nestedinterface/
+│             ├── withininterface/
+│             └── withinclass/
+├──  reflection
+├──  annotations
+├──  exceptionhandling
+├──  operators
+├──  controlflow
+├──  collections
+├──  streams
+└──  multithreading
+
 ```
 
 ## Getting Started
