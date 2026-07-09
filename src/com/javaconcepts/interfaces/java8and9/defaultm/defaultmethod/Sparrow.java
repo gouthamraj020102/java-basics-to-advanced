@@ -1,4 +1,4 @@
-package com.javaconcepts.interfaces.java8and9.defaultmethod;
+package com.javaconcepts.interfaces.java8and9.defaultm.defaultmethod;
 
 public class Sparrow implements Bird {
     @Override

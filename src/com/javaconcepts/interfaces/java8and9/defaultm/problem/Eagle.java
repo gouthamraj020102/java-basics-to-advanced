@@ -1,4 +1,4 @@
-package com.javaconcepts.interfaces.java8and9.problem;
+package com.javaconcepts.interfaces.java8and9.defaultm.problem;
 
 public class Eagle implements Bird {
     @Override
