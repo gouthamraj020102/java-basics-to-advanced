@@ -288,6 +288,8 @@ src/com/javaconcepts/
 │      │              ├── wayone/
 │      │              ├── waytwo/
 │      │              └── waythree/
+│      ├── staticmethod/
+│      ├── privatemethod/
 │      └── functionalinterface/
 ├──  reflection
 ├──  annotations
