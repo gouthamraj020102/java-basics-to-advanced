@@ -277,9 +277,20 @@ src/com/javaconcepts/
 │      ├── methods/
 │      ├── fields/
 │      ├── implementation/
-│      └── nestedinterface/
-│             ├── withininterface/
-│             └── withinclass/
+│      ├── nestedinterface/
+│      │      ├── withininterface/
+│      │      └── withinclass/
+│      ├── defaultmethod/
+│      │       ├── problem/
+│      │       ├── defaultmethod/
+│      │       ├── multipleinheritance/
+│      │       └── extendinterface/
+│      │              ├── wayone/
+│      │              ├── waytwo/
+│      │              └── waythree/
+│      ├── staticmethod/
+│      ├── privatemethod/
+│      └── functionalinterface/
 ├──  reflection
 ├──  annotations
 ├──  exceptionhandling
