@@ -1,4 +1,4 @@
-package com.javaconcepts.interfaces.java8and9.defaultm.multipleinheritance;
+package com.javaconcepts.interfaces.defaultmethod.multipleinheritance;
 
 public interface Bird {
     default boolean canBreathe() {

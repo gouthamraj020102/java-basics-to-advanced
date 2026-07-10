@@ -1,4 +1,4 @@
-package com.javaconcepts.interfaces.java8and9.defaultm.defaultmethod;
+package com.javaconcepts.interfaces.defaultmethod.defaultmethod;
 
 public class Eagle implements Bird {
     @Override

@@ -280,9 +280,14 @@ src/com/javaconcepts/
 │      ├── nestedinterface/
 │      │      ├── withininterface/
 │      │      └── withinclass/
-│      ├── java8and9/
-│      │      ├── problem/
-│      │      └── defaultmethod/
+│      ├── defaultmethod/
+│      │       ├── problem/
+│      │       ├── defaultmethod/
+│      │       ├── multipleinheritance/
+│      │       └── extendinterface/
+│      │              ├── wayone/
+│      │              ├── waytwo/
+│      │              └── waythree/
 │      └── functionalinterface/
 ├──  reflection
 ├──  annotations
