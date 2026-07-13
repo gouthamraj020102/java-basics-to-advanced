@@ -291,6 +291,10 @@ src/com/javaconcepts/
 │      ├── staticmethod/
 │      ├── privatemethod/
 │      └── functionalinterface/
+│              ├── implement/
+│              ├── anonymous/
+│              ├── lambda/
+│              └── types/
 ├──  reflection
 ├──  annotations
 ├──  exceptionhandling
