@@ -294,7 +294,15 @@ src/com/javaconcepts/
 │              ├── implement/
 │              ├── anonymous/
 │              ├── lambda/
-│              └── types/
+│              ├── types/
+│              │      ├── consumer/
+│              │      ├── supplier/
+│              │      ├── function/
+│              │      └── predicate/
+│              └── usecase/
+│                     ├── usecaseone/
+│                     ├── usecasetwo/
+│                     └── usecasethree/
 ├──  reflection
 ├──  annotations
 ├──  exceptionhandling
