@@ -291,6 +291,18 @@ src/com/javaconcepts/
 │      ├── staticmethod/
 │      ├── privatemethod/
 │      └── functionalinterface/
+│              ├── implement/
+│              ├── anonymous/
+│              ├── lambda/
+│              ├── types/
+│              │      ├── consumer/
+│              │      ├── supplier/
+│              │      ├── function/
+│              │      └── predicate/
+│              └── usecase/
+│                     ├── usecaseone/
+│                     ├── usecasetwo/
+│                     └── usecasethree/
 ├──  reflection
 ├──  annotations
 ├──  exceptionhandling
