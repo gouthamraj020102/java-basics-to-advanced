@@ -304,6 +304,13 @@ src/com/javaconcepts/
 │                     ├── usecasetwo/
 │                     └── usecasethree/
 ├──  reflection
+│      ├── classes/
+│      ├── methods/
+│      ├── methodinvoke/
+│      ├── fields/
+│      │      ├── settingpublicfield/
+│      │      └── settingprivatefield/
+│      └── constructors/
 ├──  annotations
 ├──  exceptionhandling
 ├──  operators
