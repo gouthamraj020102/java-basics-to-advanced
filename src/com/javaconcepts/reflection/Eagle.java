@@ -1,4 +1,4 @@
-package com.javaconcepts.reflection.classes;
+package com.javaconcepts.reflection;
 
 public class Eagle {
     public String breed;
@@ -8,7 +8,7 @@ public class Eagle {
         System.out.println("fly");
     }
 
-    public void eat() {
+    private void eat() {
         System.out.println("eat");
     }
 }
