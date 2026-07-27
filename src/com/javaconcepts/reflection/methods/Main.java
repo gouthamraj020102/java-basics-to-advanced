@@ -5,6 +5,8 @@ import java.lang.reflect.Method;
 
 public class Main {
     public static void main(String[] args) {
+
+        // Reflection of Methods example:
         Class eagleClass = Eagle.class;
         Method[] methods = eagleClass.getMethods();
         for (Method method : methods) {
