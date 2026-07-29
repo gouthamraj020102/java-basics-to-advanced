@@ -318,7 +318,17 @@ src/com/javaconcepts/
 │      │      ├── suppresswarning/
 │      │      ├── functionalinterfaces/
 │      │      └── safevarargs/
-│      └── onannotations/
+│      ├── onannotations/
+│      │      ├── retentionannotation/
+│      │      │      ├── sourceexample/
+│      │      │      ├── runtimeexample/
+│      │      │      └── customannotation/
+│      │      ├── inheritedannotation/
+│      │      └── repeatableannotation/
+│      └── userdefinedannotations/
+│             ├── emptybody/
+│             ├── withmethodbody/
+│             └── defaultvalues/
 ├──  exceptionhandling
 ├──  operators
 ├──  controlflow
