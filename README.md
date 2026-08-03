@@ -330,6 +330,28 @@ src/com/javaconcepts/
 │             ├── withmethodbody/
 │             └── defaultvalues/
 ├──  exceptionhandling
+│      ├── errors/
+│      │      ├── outofmemoryerror/
+│      │      └── stackoverflowerror/
+│      └── exceptions/
+│             ├── uncheckedexceptions/
+│             │      ├── classcastexception/
+│             │      ├── arithmeticexception/
+│             │      ├── indexoutofboundsexception/
+│             │      │      ├── arrayindexoutofboundsexception/
+│             │      │      └── stringindexoutofboundsexception/
+│             │      ├── nullpointerexception/
+│             │      └── illegalargumentexception/
+│             ├── checkedexceptions/
+│             │      ├── ways/
+│             │      │      ├── usingthrows/
+│             │      │      └── usingtrycatch/
+│             │      └── handling/
+│             │             ├── usingtrycatchblock/
+│             │             ├── usingfinally/
+│             │             └── usingthrow/
+│             ├── userdefinedexceptions/
+│             └── importanceofexceptionhandling/
 ├──  operators
 ├──  controlflow
 ├──  collections
