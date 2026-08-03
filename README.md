@@ -342,7 +342,16 @@ src/com/javaconcepts/
 │             │      │      └── stringindexoutofboundsexception/
 │             │      ├── nullpointerexception/
 │             │      └── illegalargumentexception/
-│             └── checkedexceptions/
+│             ├── checkedexceptions/
+│             │      ├── ways/
+│             │      │      ├── usingthrows/
+│             │      │      └── usingtrycatch/
+│             │      └── handling/
+│             │             ├── usingtrycatchblock/
+│             │             ├── usingfinally/
+│             │             └── usingthrow/
+│             ├── userdefinedexceptions/
+│             └── importanceofexceptionhandling/
 ├──  operators
 ├──  controlflow
 ├──  collections
