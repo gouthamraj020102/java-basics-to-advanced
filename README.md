@@ -353,6 +353,16 @@ src/com/javaconcepts/
 │             ├── userdefinedexceptions/
 │             └── importanceofexceptionhandling/
 ├──  operators
+│      ├── arithmeticoperators/
+│      ├── relationaloperators/
+│      ├── logicaloperators/
+│      ├── unaryoperators/
+│      ├── assignmentoperators/
+│      ├── bitwiseoperators/
+│      ├── bitwiseshiftoperators/
+│      ├── ternaryoperators/
+│      ├── typecomparisonoperators/
+│      └── operatorprecedence/
 ├──  controlflow
 ├──  collections
 ├──  streams
