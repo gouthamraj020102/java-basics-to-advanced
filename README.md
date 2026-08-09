@@ -380,6 +380,12 @@ src/com/javaconcepts/
 │             ├── breakstatement/
 │             └── continuestatement/
 ├──  collections
+│      ├── collectionspart1/
+│      │      ├── problem/
+│      │      ├── iterable/
+│      │      ├── collectionmethods/
+│      │      └── collectionsmethods/
+│      └── collectionspart2/
 ├──  streams
 └──  multithreading
 
