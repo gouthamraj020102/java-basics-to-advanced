@@ -385,7 +385,25 @@ src/com/javaconcepts/
 │      │      ├── iterable/
 │      │      ├── collectionmethods/
 │      │      └── collectionsmethods/
-│      └── collectionspart2/
+│      ├── collectionspart2/
+│      │      └──queue/
+│      │             ├── priorityqueue/
+│      │             │      ├── minimumpriorityqueue/
+│      │             │      └── maximumpriorityqueue/
+│      │             ├── problem/
+│      │             ├── comparator/
+│      │             │      ├── approachone/
+│      │             │      ├── approachtwo/
+│      │             │      └── approachthree/
+│      │             └── comparable/
+│      ├── collectionspart2/
+│      │      └── dequeue/
+│      ├── collectionspart3/
+│      ├── collectionspart4/
+│      ├── collectionspart5/
+│      ├── collectionspart6/
+│      └── collectionspart7/
+│             └── iterable/
 ├──  streams
 └──  multithreading
 
