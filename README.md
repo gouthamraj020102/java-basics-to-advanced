@@ -380,25 +380,23 @@ src/com/javaconcepts/
 │             ├── breakstatement/
 │             └── continuestatement/
 ├──  collections
-│      ├── collectionspart1/
+│      ├── fundamentals/
 │      │      ├── problem/
 │      │      ├── iterable/
 │      │      ├── collectionmethods/
 │      │      └── collectionsmethods/
-│      ├── collectionspart2/
-│      │      └──queue/
-│      │             ├── priorityqueue/
-│      │             │      ├── minimumpriorityqueue/
-│      │             │      └── maximumpriorityqueue/
-│      │             ├── problem/
-│      │             ├── comparator/
-│      │             │      ├── approachone/
-│      │             │      ├── approachtwo/
-│      │             │      └── approachthree/
-│      │             └── comparable/
-│      ├── collectionspart2/
+│      ├── queue/
+│      │      ├── priorityqueue/
+│      │      │      ├── minimumpriorityqueue/
+│      │      │      └── maximumpriorityqueue/
+│      │      ├── problem/
+│      │      ├── comparator/
+│      │      │      ├── approachone/
+│      │      │      ├── approachtwo/
+│      │      │      └── approachthree/
+│      │      └── comparable/
+│      ├── dequeue/
 │      │      └── dequeue/
-│      ├── collectionspart3/
 │      ├── collectionspart4/
 │      ├── collectionspart5/
 │      ├── collectionspart6/
