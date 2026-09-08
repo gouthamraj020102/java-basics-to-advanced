@@ -398,13 +398,17 @@ src/com/javaconcepts/
 │      │      └── comparable/
 │      ├── collectionspart3/
 │      │      ├── dequeue/
-│      │      │      └── arraydeque/
-│      │      ├── threadsafe/
-│      │      │      ├── priorityblockingqueue/
-│      │      │      └── concurrentlinkeddeque/
-│      │      ├── list/
-│      │      │      ├── arraylist/
-│      │      │      └── linkedlist/
+│      │      │      ├── arraydeque/
+│      │      │      └── threadsafe/
+│      │      │             ├── priorityblockingqueue/
+│      │      │             └── concurrentlinkeddeque/
+│      │      └── list/
+│      │             ├── arraylist/
+│      │             ├── linkedlist/
+│      │             ├── vector/
+│      │             ├── stack/
+│      │             └── threadsafe/
+│      │                    └── copyonwritearraylist/
 │      ├── collectionspart4/
 │      ├── collectionspart5/
 │      ├── collectionspart6/
