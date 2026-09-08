@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.queue.priorityqueue.maximumpriorityqueue;
+package com.javaconcepts.collections.collectionspart2.queue.priorityqueue.maximumpriorityqueue;
 
 import java.util.PriorityQueue;
 

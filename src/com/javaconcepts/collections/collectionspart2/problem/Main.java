@@ -1,7 +1,8 @@
-package com.javaconcepts.collections.queue.problem;
+package com.javaconcepts.collections.collectionspart2.problem;
 
-import com.javaconcepts.collections.queue.Car;
 import java.util.Arrays;
+
+import com.javaconcepts.collections.collectionspart2.Car;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package com.javaconcepts.collections.queue.comparator.approachtwo;
+package com.javaconcepts.collections.collectionspart2.comparator.approachtwo;
 
 import java.util.Comparator;
 
-import com.javaconcepts.collections.queue.Car;
+import com.javaconcepts.collections.collectionspart2.Car;
 
 public class CarNameComparator implements Comparator<Car> {
     @Override

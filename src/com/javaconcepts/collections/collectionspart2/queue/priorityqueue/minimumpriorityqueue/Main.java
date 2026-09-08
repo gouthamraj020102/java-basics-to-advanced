@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.queue.priorityqueue.minimumpriorityqueue;
+package com.javaconcepts.collections.collectionspart2.queue.priorityqueue.minimumpriorityqueue;
 
 import java.util.PriorityQueue;
 

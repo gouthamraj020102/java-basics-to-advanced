@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.queue.comparable;
+package com.javaconcepts.collections.collectionspart2.comparable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

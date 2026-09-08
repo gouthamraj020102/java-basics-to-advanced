@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.queue.comparator.approachthree;
+package com.javaconcepts.collections.collectionspart2.comparator.approachthree;
 
 import java.util.ArrayList;
 import java.util.Collections;

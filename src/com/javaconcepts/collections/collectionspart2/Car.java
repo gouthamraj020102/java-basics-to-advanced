@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.queue;
+package com.javaconcepts.collections.collectionspart2;
 
 public class Car {
 

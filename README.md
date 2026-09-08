@@ -385,18 +385,26 @@ src/com/javaconcepts/
 │      │      ├── iterable/
 │      │      ├── collectionmethods/
 │      │      └── collectionsmethods/
-│      ├── queue/
-│      │      ├── priorityqueue/
-│      │      │      ├── minimumpriorityqueue/
-│      │      │      └── maximumpriorityqueue/
+│      ├── collectionspart2/
 │      │      ├── problem/
+│      │      ├── queue/
+│      │      │      └── priorityqueue/
+│      │      │             ├── minimumpriorityqueue/
+│      │      │             └── maximumpriorityqueue/
 │      │      ├── comparator/
 │      │      │      ├── approachone/
 │      │      │      ├── approachtwo/
 │      │      │      └── approachthree/
 │      │      └── comparable/
-│      ├── dequeue/
-│      │      └── dequeue/
+│      ├── collectionspart3/
+│      │      ├── dequeue/
+│      │      │      └── arraydeque/
+│      │      ├── threadsafe/
+│      │      │      ├── priorityblockingqueue/
+│      │      │      └── concurrentlinkeddeque/
+│      │      ├── list/
+│      │      │      ├── arraylist/
+│      │      │      └── linkedlist/
 │      ├── collectionspart4/
 │      ├── collectionspart5/
 │      ├── collectionspart6/
