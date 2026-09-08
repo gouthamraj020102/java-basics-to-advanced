@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.collectionspart3.threadsafe.priorityblockingqueue;
+package com.javaconcepts.collections.collectionspart3.dequeue.threadsafe.priorityblockingqueue;
 
 import java.util.concurrent.PriorityBlockingQueue;
 

@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.collectionspart3.threadsafe.concurrentlinkeddeque;
+package com.javaconcepts.collections.collectionspart3.dequeue.threadsafe.concurrentlinkeddeque;
 
 import java.util.concurrent.ConcurrentLinkedDeque;
 
