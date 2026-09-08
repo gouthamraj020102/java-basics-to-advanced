@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.fundamentals.iterable;
+package com.javaconcepts.collections.collectionspart1.iterable;
 
 import java.util.ArrayList;
 import java.util.Iterator;

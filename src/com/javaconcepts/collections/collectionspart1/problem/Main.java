@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.fundamentals.problem;
+package com.javaconcepts.collections.collectionspart1.problem;
 
 import java.util.Vector;
 

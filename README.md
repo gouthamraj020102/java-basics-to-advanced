@@ -380,7 +380,7 @@ src/com/javaconcepts/
 │             ├── breakstatement/
 │             └── continuestatement/
 ├──  collections
-│      ├── fundamentals/
+│      ├── collectionspart1/
 │      │      ├── problem/
 │      │      ├── iterable/
 │      │      ├── collectionmethods/

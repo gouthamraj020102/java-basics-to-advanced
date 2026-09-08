@@ -1,4 +1,4 @@
-package com.javaconcepts.collections.fundamentals.collectionmethods;
+package com.javaconcepts.collections.collectionspart1.collectionmethods;
 
 import java.util.ArrayList;
 import java.util.List;
