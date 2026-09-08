@@ -1,13 +1,14 @@
-package com.javaconcepts.collections.collectionspart2.queue.problem;
+package com.javaconcepts.collections.collectionspart2.problem;
 
-import com.javaconcepts.collections.collectionspart2.queue.Car;
 import java.util.Arrays;
+
+import com.javaconcepts.collections.collectionspart2.Car;
 
 public class Main {
     public static void main(String[] args) {
 
         // 1. Primitive collection sorting
-        int[] array = {1, 2, 3, 4};
+        int[] array = {4, 2, 3, 1};
         Arrays.sort(array);
         for (int element : array) {
             System.out.println(element);

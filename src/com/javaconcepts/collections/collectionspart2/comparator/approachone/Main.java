@@ -1,11 +1,12 @@
-package com.javaconcepts.collections.collectionspart2.queue.comparator.approachtwo;
+package com.javaconcepts.collections.collectionspart2.comparator.approachone;
 
-import com.javaconcepts.collections.collectionspart2.queue.Car;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// Approach 2: Using car name comparator class
+import com.javaconcepts.collections.collectionspart2.Car;
+
+// Approach 1: Using lambda on lists
 public class Main {
     public static void main(String[] args) {
 
@@ -14,7 +15,7 @@ public class Main {
         cars.add(new Car("sedan", "diesel"));
         cars.add(new Car("hatchback", "cng"));
 
-        Collections.sort(cars, new CarNameComparator());
+        Collections.sort(cars, (Car obj1, Car obj2) -> obj2.carName.compareTo(obj1.carName));
         cars.forEach((Car carObj) -> System.out.println(carObj.carName + ".." + carObj.carType));
 
     }

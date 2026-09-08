@@ -11,7 +11,7 @@ public class Main {
         int val1 = arr[0];
         System.out.println(val1);
 
-        Vector<Integer> vectorObIntegers = new Vector();
+        Vector<Integer> vectorObIntegers = new Vector<>();
         // insert an element in vector
         vectorObIntegers.add(1);
         // get element

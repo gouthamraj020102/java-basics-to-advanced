@@ -386,19 +386,29 @@ src/com/javaconcepts/
 │      │      ├── collectionmethods/
 │      │      └── collectionsmethods/
 │      ├── collectionspart2/
-│      │      └──queue/
-│      │             ├── priorityqueue/
-│      │             │      ├── minimumpriorityqueue/
-│      │             │      └── maximumpriorityqueue/
-│      │             ├── problem/
-│      │             ├── comparator/
-│      │             │      ├── approachone/
-│      │             │      ├── approachtwo/
-│      │             │      └── approachthree/
-│      │             └── comparable/
-│      ├── collectionspart2/
-│      │      └── dequeue/
+│      │      ├── problem/
+│      │      ├── queue/
+│      │      │      └── priorityqueue/
+│      │      │             ├── minimumpriorityqueue/
+│      │      │             └── maximumpriorityqueue/
+│      │      ├── comparator/
+│      │      │      ├── approachone/
+│      │      │      ├── approachtwo/
+│      │      │      └── approachthree/
+│      │      └── comparable/
 │      ├── collectionspart3/
+│      │      ├── dequeue/
+│      │      │      ├── arraydeque/
+│      │      │      └── threadsafe/
+│      │      │             ├── priorityblockingqueue/
+│      │      │             └── concurrentlinkeddeque/
+│      │      └── list/
+│      │             ├── arraylist/
+│      │             ├── linkedlist/
+│      │             ├── vector/
+│      │             ├── stack/
+│      │             └── threadsafe/
+│      │                    └── copyonwritearraylist/
 │      ├── collectionspart4/
 │      ├── collectionspart5/
 │      ├── collectionspart6/

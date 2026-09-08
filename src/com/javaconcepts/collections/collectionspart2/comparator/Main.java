@@ -1,7 +1,8 @@
-package com.javaconcepts.collections.collectionspart2.queue.comparator;
+package com.javaconcepts.collections.collectionspart2.comparator;
 
-import com.javaconcepts.collections.collectionspart2.queue.Car;
 import java.util.Arrays;
+
+import com.javaconcepts.collections.collectionspart2.Car;
 
 // Uses compare() method
 public class Main {
