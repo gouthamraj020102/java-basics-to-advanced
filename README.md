@@ -410,6 +410,8 @@ src/com/javaconcepts/
 │      │             └── threadsafe/
 │      │                    └── copyonwritearraylist/
 │      ├── collectionspart4/
+│      │      ├── hashmap/
+│      │      └── linkedhashmap/
 │      ├── collectionspart5/
 │      ├── collectionspart6/
 │      └── collectionspart7/
